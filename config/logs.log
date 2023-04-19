@@ -2479,3 +2479,8 @@ jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'endblock'. You p
 2023-04-19 17:45:09,288 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:09] "GET /contacts HTTP/1.1" 200 -
 2023-04-19 17:45:09,873 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:09] "GET /static/img/backs/img.png HTTP/1.1" 200 -
 2023-04-19 17:45:24,815 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2023 17:45:24] "GET /main HTTP/1.1" 200 -
+2023-04-19 19:14:14,060 - apscheduler.scheduler - INFO - Scheduler started
+2023-04-19 19:14:14,060 - telegram.ext._application - INFO - Application started
+2023-04-19 19:14:22,080 - telegram.ext._application - INFO - Application is stopping. This might take a moment.
+2023-04-19 19:14:22,080 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-04-19 19:14:22,080 - telegram.ext._application - INFO - Application.stop() complete

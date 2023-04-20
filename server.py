@@ -91,6 +91,7 @@ async def get_response(url, params=None):
 
 
 async def get_data(update, context):
+    await update.message.reply_text("Looking for the information...")
     print(SITE_URL + "/api/" + context.args[0].lower())
     response = await get_response(SITE_URL + "/api/" + context.args[0].lower())
     answer = ""
